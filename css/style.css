@@ -1,0 +1,49 @@
+:root{
+    --main-backgound-color: #000;
+    --actient-color:#D23166;
+    --main-text: #FFF;
+    --sosial-color:rgba(255,255,255,0.10);
+    --part-backgroud:#151515;
+}
+.container{
+    width:1267px ;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 1px solid red;
+
+} 
+body{
+    background-color: var(--main-backgound-color);
+}
+.header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h_list{
+    display: flex;
+    gap: 95px;
+
+}
+.h_link{
+    color:var(--main-text);
+text-align: justify;
+font-family: Manrope;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+}
+.h_items{
+    display: flex;
+    gap: 15px;
+}
+.h_social{
+display: flex;
+align-items: center;
+justify-content: center;
+}
