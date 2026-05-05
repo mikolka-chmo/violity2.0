@@ -4,6 +4,9 @@
     --main-text: #FFF;
     --sosial-color:rgba(255,255,255,0.10);
     --part-backgroud:#151515;
+    --btn-color:#fafafa;
+    --textixs-color: rgba(255, 255, 255, 0.20);
+
 }
 .container{
     width:1267px ;
@@ -18,7 +21,7 @@ body{
 }
 .header{
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 40px;   
 }
 .header .container{
     display: flex;
@@ -46,4 +49,102 @@ line-height: normal;
 display: flex;
 align-items: center;
 justify-content: center;
+}
+.hero .container{
+    display: flex;
+    gap: 73px;
+    align-items: center;
+}
+
+.hero_p{
+    align-self: stretch;
+color: var(--main-text);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.4px;
+
+}
+.hero_title{
+    align-self: stretch;
+color: var(--main-text);
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 94%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+width: 587px;
+margin-bottom: 16px;
+
+}
+.hero_span{
+    align-self: stretch;
+color:var(--actient-color);
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 94%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+
+}
+.hero_text{
+    color: var(--main-text);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+opacity: 0.6;
+width: 587px;
+margin-bottom: 48px;
+}
+.hero_btn{
+    background-color: var(--actient-color);
+    padding: 13px 50px;
+    color: var(--btn-color);
+font-family: "Hind Madurai";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.textixs .container{
+    position: relative;
+
+}
+.textixs{
+    padding-top: 129px;
+    padding-bottom: 105px; ;
+}
+.textixs_text{
+    color: var(--main-text);
+text-align: center;
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+}
+.textixs_span{
+    color: var(--textixs-color);
+}
+.text_fish{ position: absolute;
+left: 40px;
+top: 100px;
+}
+.text_milk{ position: absolute;
+bottom: -45px;
+
+}
+.text_straw{ position: absolute;
+top: -70px;
+right: 115px;
 }
